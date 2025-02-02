@@ -66,7 +66,7 @@ const ProfileOverview = ({ navigation }) => {
 
         <Text style={[styles.sectionTitle, { marginTop: 20 }]}>About the doctor</Text>
         <Text style={styles.description}>
-          Pellentesque placerat arcu in risus facilisis, sed laoreet eros laoreet...
+          {formData.bio}
         </Text>
 
         <View style={[styles.card, { marginTop: 20 }]}>
